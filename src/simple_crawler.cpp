@@ -196,7 +196,7 @@ int main(int argc, char** argv)
                         }
                     }
 
-                    href = href.substr(0, href.find_last_of("#/"));
+                    href = href.substr(0, href.find_last_of("#"));
 
                     if (std::regex_search(href, url_regex)
                         && visited.find(href) == visited.end())
