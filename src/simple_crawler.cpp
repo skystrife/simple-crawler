@@ -111,6 +111,7 @@ int main(int argc, char** argv)
 
     std::queue<std::string> to_visit;
     to_visit.push(seed_url);
+    visited.insert(seed_url);
 
     while (!to_visit.empty())
     {
