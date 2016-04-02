@@ -1,0 +1,5 @@
+seed-url = "https://en.wikipedia.org/wiki/Main_Page"
+url-regex = "https:\\/\\/en\\.wikipedia\\.org\\/wiki\\/"
+sleep-time = 2000
+save-html = true
+save-text = true

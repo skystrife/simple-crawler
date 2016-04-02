@@ -1,0 +1,15 @@
+[submodule "deps/cpr"]
+	path = deps/cpr
+	url = https://github.com/whoshuu/cpr.git
+[submodule "deps/meta-cmake"]
+	path = deps/meta-cmake
+	url = https://github.com/meta-toolkit/meta-cmake.git
+[submodule "deps/cpptoml"]
+	path = deps/cpptoml
+	url = https://github.com/skystrife/cpptoml.git
+[submodule "deps/gumbo-parser"]
+	path = deps/gumbo-parser
+	url = https://github.com/google/gumbo-parser.git
+[submodule "deps/gumbo-libxml"]
+	path = deps/gumbo-libxml
+	url = https://github.com/nostrademons/gumbo-libxml
