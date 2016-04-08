@@ -107,6 +107,8 @@ ExternalProject_Add(gumbo-libxml-ep
   BUILD_BYPRODUCTS <INSTALL_DIR>/lib/${CMAKE_FIND_LIBRARY_PREFIXES}gumbo_xml.a
   INSTALL_COMMAND make install)
 
+add_dependencies(gumbo-libxml-ep gumbo-parser-ep)
+
 ExternalProject_Get_Property(gumbo-libxml-ep INSTALL_DIR)
 set(GUMBO_LIBXML_INCLUDE_DIR ${INSTALL_DIR}/include)
 set(GUMBO_LIBXML_LIB_DIR ${INSTALL_DIR}/lib)
